@@ -41,6 +41,10 @@ namespace Validador
                 }
             }
             int modulo = suma % 10;
+            if (modulo == 0 && (Int32.Parse(vectorCedula[9].ToString())) ==0)
+            {
+                return true;
+            }
             int sup = (10 - modulo) + suma;
             if ((Int32.Parse(vectorCedula[9].ToString())) == (sup - suma))
             {
