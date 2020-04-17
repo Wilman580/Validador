@@ -79,7 +79,19 @@ namespace Validador
 
             }
             return producto;
-        } 
+        }
+        #endregion
+
+        #region MetodoValidarRucNaturalEcuador
+
+        #endregion
+
+        #region MetodoValidarPublicoEcuador
+
+        #endregion
+
+        #region ValidadorRucJuridico-ExtrangerosEcuador
+
         #endregion
     }
 }
